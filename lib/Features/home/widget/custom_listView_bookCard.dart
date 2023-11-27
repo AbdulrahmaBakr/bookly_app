@@ -11,7 +11,7 @@ class ListViewBookCards extends StatelessWidget {
     return SizedBox(
       height: 193,
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.only(left: 20, top: 20),
         child: ListView.separated(
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
