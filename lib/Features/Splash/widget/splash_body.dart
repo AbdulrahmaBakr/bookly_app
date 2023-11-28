@@ -1,6 +1,7 @@
 import 'package:bookly_app/Features/home/presentaion/home.dart';
-import 'package:bookly_app/core/utils/AppAssets.dart';
-import 'package:bookly_app/core/utils/AppString.dart';
+ 
+import 'package:bookly_app/core/utils/constant/AppAssets.dart';
+import 'package:bookly_app/core/utils/constant/AppString.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
