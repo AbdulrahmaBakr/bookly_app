@@ -1,7 +1,6 @@
 import 'package:bookly_app/Features/home/presentaion/widget/best_seller_card.dart';
 import 'package:bookly_app/Features/home/presentaion/widget/custom_app_bar.dart';
-import 'package:bookly_app/Features/home/presentaion/widget/custom_book_card.dart';
-import 'package:bookly_app/Features/home/presentaion/widget/custom_listView_bookCard.dart';
+ import 'package:bookly_app/Features/home/presentaion/widget/custom_listView_bookCard.dart';
 import 'package:bookly_app/core/utils/constant/AppString.dart';
 import 'package:bookly_app/core/widget/custom_text.dart';
 import 'package:flutter/material.dart';
