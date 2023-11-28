@@ -1,5 +1,4 @@
-import 'package:bookly_app/Features/home/presentaion/home.dart';
- 
+import 'package:bookly_app/Features/details/presentation/widget/details_body.dart';
 import 'package:bookly_app/core/utils/constant/AppAssets.dart';
 import 'package:bookly_app/core/utils/constant/AppString.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +18,7 @@ class _SplashBodyState extends State<SplashBody> {
     super.initState();
 
     Future.delayed(const Duration(seconds: 5), () {
-      Get.to(() => const HomeView(),
+      Get.to(() => const DetailsBodyView(),
           transition: Transition.rightToLeft,
           duration: const Duration(milliseconds: 250));
     });
