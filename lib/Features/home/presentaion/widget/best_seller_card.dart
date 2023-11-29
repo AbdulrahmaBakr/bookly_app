@@ -1,5 +1,6 @@
 import 'package:bookly_app/core/widget/custom_text.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class BestSellerCard extends StatelessWidget {
@@ -14,8 +15,13 @@ class BestSellerCard extends StatelessWidget {
       height: 130,
       child: Row(
         children: [
-          Image.asset(
-            'assets/images/bg_test.png',
+          InkWell(
+            onTap: () {
+              GoRouter.of(context).push('/detailsView');
+            },
+            child: Image.asset(
+              'assets/images/bg_test.png',
+            ),
           ),
           Padding(
             padding: const EdgeInsets.only(left: 18, top: 10),

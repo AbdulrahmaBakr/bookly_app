@@ -1,4 +1,4 @@
- import 'package:bookly_app/core/utils/constant/AppAssets.dart';
+import 'package:bookly_app/core/utils/constant/AppAssets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -20,11 +20,13 @@ class CustomAppBar extends StatelessWidget {
             height: 25,
           ),
           IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.search,
-                size: 25,
-              ),),   
+            onPressed: () {},
+            icon: const Icon(
+              Icons.search,
+              color: Colors.white,
+              size: 25,
+            ),
+          ),
         ],
       ),
     );

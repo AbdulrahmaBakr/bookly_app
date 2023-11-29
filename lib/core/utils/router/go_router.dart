@@ -1,9 +1,9 @@
 import 'package:bookly_app/Features/Splash/splash_view.dart';
-import 'package:bookly_app/Features/details/presentation/widget/details_body.dart';
- import 'package:flutter/material.dart';
+import 'package:bookly_app/Features/details/presentation/details.dart';
+  import 'package:bookly_app/Features/home/presentaion/home_view.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-
-abstract class AppRouter {
+ abstract class AppRouter {
   static GoRouter router = GoRouter(
     routes: <RouteBase>[
       GoRoute(
@@ -15,7 +15,13 @@ abstract class AppRouter {
       GoRoute(
         path: '/HomeView',
         builder: (BuildContext context, GoRouterState state) {
-          return const DetailsBodyView();
+          return const HomeView();
+        },
+      ),
+      GoRoute(
+        path: '/detailsView',
+        builder: (BuildContext context, GoRouterState state) {
+          return const DetailsView();
         },
       ),
     ],

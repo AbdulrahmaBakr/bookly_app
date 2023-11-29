@@ -18,7 +18,9 @@ class ListViewBookCards extends StatelessWidget {
               return const CustomBookCard();
             },
             separatorBuilder: (context, index) {
-              return const Divider();
+              return const VerticalDivider(
+                width: 5,
+              );
             },
             itemCount: 10),
       ),
