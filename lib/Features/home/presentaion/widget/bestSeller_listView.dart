@@ -12,7 +12,7 @@ class BestSellerListview extends StatelessWidget {
       padding: const EdgeInsets.only(top: 20, left: 28),
       child: ListView.separated(
           physics: const NeverScrollableScrollPhysics(),
-          itemBuilder: (context, index) {
+           itemBuilder: (context, index) {
             return const BookCard();
           },
           separatorBuilder: (context, index) {
